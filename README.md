@@ -19,6 +19,10 @@ Here in this project, we will create a database which objective is store data fr
 ## Database components
 
 ## Database Normalization
+In this section we will make an excercise where we normalize an initial table which has data about 2 monitorings and 2 plant species; this table is unorganized because does not follows the normal forms, so we will go step by step showing how to correctly organize this information. 
+
+#### Table 1. Unorganized table.
+![](images/Unorganized_table.PNG)
 
 
 
