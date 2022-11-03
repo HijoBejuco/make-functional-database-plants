@@ -24,6 +24,29 @@ In this section we will make an excercise where we normalize an initial table wh
 #### Table 1. Unorganized table.
 ![](images/Unorganized_table.PNG)
 
+In the previus table we see that there are some columns that repeat, like **monitoring_date_1** and **monitoring_date_2** or **height_1** and **height_2**. This can't happen because it violates the normal forms rules; so the next table fixes this issue to produce a table in the first normal form. 
+
+#### Table 2. first normal form table.
+![](images/first_normal_form_table.PNG)
+
+This table does not have repeated columns, so we have now a table in the first normal form.
+
+To transform this table into the second normal form, we must ensure the table has a single column primary key, in this case our table does not satisfies this condition, because the column **plant_id** is not **UNIQUE**. To do this, we think it's a good idea to create 2 tables, which have THE SAME INFORMATION AS THE Table 2, but with the information organized differently, also these two tables has each one a UNIQUE primary key. 
+
+#### Table 3. second normal form tables. 
+![](images/second_normal_form_tables.PNG)
+
+These two tables satisfy the second normal form.
+
+To transform these tables into the third normal form, we must separate the entities that do not have relations 1:1 (one-to-one relations). 
+
+**for example** the relationship between plant and scientific_name is not 1:1, because different individual plants can have the same scientific_name, so the relationship here is 1:N; the same happens for family, location, sower and origin. 
+
+**Something special** happens with the relationship between plant and flower_color, because one individual plant can have different colors in its flower and one color can be in different flower species, we can say that this relationship is N:N (many-to-many relationship). So to correctly relationate these two entities, we need a transitory or intermediate table, in this case we named it: **'plant_flower_color'**, this is a simple table which has a primary key and the information of which plant_id has which color.  
+
+#### Table 4. third normal form tables and 'intermediate' table
+![](images/third_normal_form_tables.PNG)
+
 
 
 
