@@ -47,6 +47,27 @@ To transform these tables into the third normal form, we must separate the entit
 #### Table 4. third normal form tables and 'intermediate' table
 ![](images/third_normal_form_tables.PNG)
 
+With the previous procedure, we have, at least, the third normal form, and this is anough for the porpuse of this project. 
+
+## Database and table creation. 
+
+#### Database creation
+we will use the command **CREATE DATABASE 'database_name';** to create our database; in this case, our database will be named: *'plant_monitoring'*
+![](images/database_creation.PNG)
+
+The commands to create the tables are pretty simple, to do this we use this structure: **CREATE TABLE table_name (column_1 datatype, column_2 datatype, ...);**, The next figure is an example which creates the table 'scientific_names', which saves all the scientific names of plants. 
+
+![](images/query_to_create_scientific_names_table.PNG)
+#### Figure 1. query to create the table 'scientific_names'
+
+Following the preovious procedure, all the rest tables can be created. 
+
+**NOTE:** all the queries for table creation are located in folder **'code_for_table_creation'**; for every table there is a .sql file which can be easily executed in postgreSQL using the command **'\i'**, avoiding us to write directly the queries on the terminal.  
+
+**NOTE:** be careful while you are creating the tables, because the order of creation is very important. you MUST create the independent tables FIRST and then the dependent tables; also the LAST table that should be created is the **intermediate** table.
+
+**Independent tables:** tables that does not have Foreign keys
+**Dependent tables:** tables that does have Foreign keys
 
 
 
