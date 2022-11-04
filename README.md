@@ -1,4 +1,4 @@
-# Steps to finish the project. (We need to write the repo as a tutorial)
+# This Repo-Tutorial is under construction !!!!! 
 
 1. Describe the database and it's purpose
 2. Describe the tool we will use, PostgreSQL.
@@ -53,6 +53,7 @@ With the previous procedure, we have, at least, the third normal form, and this 
 
 #### Database creation
 we will use the command **CREATE DATABASE 'database_name';** to create our database; in this case, our database will be named: *'plant_monitoring'*
+
 ![](images/database_creation.PNG)
 
 The commands to create the tables are pretty simple, to do this we use this structure: **CREATE TABLE table_name (column_1 datatype, column_2 datatype, ...);**, The next figure is an example which creates the table 'scientific_names', which saves all the scientific names of plants. 
