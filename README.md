@@ -61,7 +61,7 @@ The commands to create the tables are pretty simple, to do this we use this stru
 ![](images/query_to_create_scientific_names_table.PNG)
 #### Figure 1. query to create the table 'scientific_names'
 
-Following the preovious procedure, all the rest tables can be created. 
+Following the preovious procedure, all the remaining tables can be created. 
 
 **NOTE:** all the queries for table creation are located in folder **'code_for_table_creation'**; for every table there is a .sql file which can be easily executed in postgreSQL using the command **'\i'**, avoiding us to write directly the queries on the terminal.  
 

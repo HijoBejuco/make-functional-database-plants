@@ -1,5 +1,5 @@
 CREATE TABLE origins (
-    origin_id SERIAL,
+    id SERIAL,
     origin VARCHAR NOT NULL UNIQUE,
-    CONSTRAINT origins_pkey PRIMARY KEY (origin_id)
+    CONSTRAINT origins_pkey PRIMARY KEY (id)
 );

@@ -1,5 +1,5 @@
 CREATE TABLE sowers (
-    sower_id SERIAL,
+    id SERIAL,
     sower VARCHAR NOT NULL UNIQUE,
-    CONSTRAINT sowers_pkey PRIMARY KEY (sower_id)
+    CONSTRAINT sowers_pkey PRIMARY KEY (id)
 );
