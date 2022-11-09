@@ -72,7 +72,7 @@ Following the preovious procedure, all the remaining tables can be created.
 
 
 
-
+### TAKE AND PASTE AGAIN THE TABLES PHOTOS OF THE THIRD NORMAL FORM, BECAUSE THEY HAVE BEEN MODIFIED 
 
 
 
