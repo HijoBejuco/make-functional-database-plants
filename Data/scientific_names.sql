@@ -1,0 +1,10 @@
+insert into scientific_names (scientific_name) values ('Monarda bradburiana Beck');
+insert into scientific_names (scientific_name) values ('Alcea pallida (Waldst. & Kit. ex Willd.) Waldst. & Kit.');
+insert into scientific_names (scientific_name) values ('Phalaris paradoxa L.');
+insert into scientific_names (scientific_name) values ('Polemonium carneum A. Gray');
+insert into scientific_names (scientific_name) values ('Vitellaria C.F. Gaertn.');
+insert into scientific_names (scientific_name) values ('Penstemon eriantherus Pursh var. argillosus M.E. Jones');
+insert into scientific_names (scientific_name) values ('Falcataria (I.C. Nielsen) Barneby & Grimes');
+insert into scientific_names (scientific_name) values ('Bidens campylotheca Sch. Bip.');
+insert into scientific_names (scientific_name) values ('Barbarea vulgaris W.T. Aiton');
+insert into scientific_names (scientific_name) values ('Triphasia trifolia (Burm. f.) P. Wilson');

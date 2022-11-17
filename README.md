@@ -75,9 +75,11 @@ Following the preovious procedure, all the remaining tables can be created.
 **NOTE:exclamation:** in the .sql code for table creation is included the Primary and Foreign keys instructions, specially for **plants** table, which is the central one.
 
 
-#### Data Ingestion 
+## Data Ingestion 
 
 Once the database and tables have been created, the next step is feed the database with data, for this task will be used the **'Mockaroo app'** which link is here(**ADD MOCKAROO LINKKKKKKKKKKKKKKKKKKKKKKKKK**). 
+
+**NOTE:exclamation:** To start filling the tables with data, we need to start with the independent tables and finish with the **intermediate** table.
 
 
 ### TAKE AND PASTE AGAIN THE TABLES PHOTOS OF THE THIRD NORMAL FORM, BECAUSE THEY HAVE BEEN MODIFIED 

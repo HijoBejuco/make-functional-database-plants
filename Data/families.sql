@@ -1,0 +1,15 @@
+insert into families (family) values ('Boraginaceae');
+insert into families (family) values ('Scrophulariaceae');
+insert into families (family) values ('Anacardiaceae');
+insert into families (family) values ('Teloschistaceae');
+insert into families (family) values ('Asteraceae');
+insert into families (family) values ('Bryaceae');
+insert into families (family) values ('Ranunculaceae');
+insert into families (family) values ('Cyperaceae');
+insert into families (family) values ('Calycanthaceae');
+insert into families (family) values ('Selaginellaceae');
+insert into families (family) values ('Lamiaceae');
+insert into families (family) values ('Poaceae');
+insert into families (family) values ('Asteraceae');
+insert into families (family) values ('Poaceae');
+insert into families (family) values ('Fabaceae');
