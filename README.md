@@ -68,8 +68,16 @@ Following the preovious procedure, all the remaining tables can be created.
 **NOTE:** be careful while you are creating the tables, because the order of creation is very important. you MUST create the independent tables FIRST and then the dependent tables; also the LAST table that should be created is the **intermediate** table.
 
 **Independent tables:** tables that does not have Foreign keys
+
 **Dependent tables:** tables that does have Foreign keys
 
+
+**NOTE:exclamation:** in the .sql code for table creation is included the Primary and Foreign keys instructions, specially for **plants** table, which is the central one.
+
+
+#### Data Ingestion 
+
+Once the database and tables have been created, the next step is feed the database with data, for this task will be used the **'Mockaroo app'** which link is here(**ADD MOCKAROO LINKKKKKKKKKKKKKKKKKKKKKKKKK**). 
 
 
 ### TAKE AND PASTE AGAIN THE TABLES PHOTOS OF THE THIRD NORMAL FORM, BECAUSE THEY HAVE BEEN MODIFIED 
