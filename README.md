@@ -70,8 +70,15 @@ Once the database and tables have been created, the next step is feed the databa
 
 **NOTE:exclamation:** To start filling the tables with data, we need to start with the independent tables and finish with the **intermediate** table.
 
+**EXAMPLE QUERY:exclamation:** Let's generate a table which shows the plant id and its respective scientific name and its family, to do this, we use the query located in 'simple_query.sql' file, which is shown as follows: 
 
-Once we have filled all the tables, we are done with this project, we just have a full database to start practicing all kind of queries. 
+![](images/query.PNG)
+
+So the resulting table is this: 
+
+![](images/resulting_table.PNG)
+
+:minidisc: Once we have filled all the tables, we are done with this project, we just have a full database to start practicing all kind of queries. 
 
 Thank you so much !
 
