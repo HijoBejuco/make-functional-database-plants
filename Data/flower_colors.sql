@@ -1,0 +1,10 @@
+insert into flower_colors (color) values ('Aquamarine');
+insert into flower_colors (color) values ('Khaki');
+insert into flower_colors (color) values ('Pink');
+insert into flower_colors (color) values ('Maroon');
+insert into flower_colors (color) values ('Green');
+insert into flower_colors (color) values ('Maroon');
+insert into flower_colors (color) values ('Violet');
+insert into flower_colors (color) values ('Orange');
+insert into flower_colors (color) values ('Turquoise');
+insert into flower_colors (color) values ('Mauv');
